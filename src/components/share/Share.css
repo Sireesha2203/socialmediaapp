@@ -1,0 +1,28 @@
+.shareInput{
+    background-color: rgb(89, 89, 90);
+    width: 92%;
+    border-radius: 30px;
+    border: none;
+    height: 40px;
+    color: rgb(247, 240, 240);
+    cursor: pointer;
+}
+.shareInput:focus{
+    outline: none;
+}
+
+.shareTop{
+    display: flex;
+    justify-content: center;
+}
+.shareProfileImg{
+    object-fit: cover;
+}
+.shareBottom{
+    display: flex;
+    justify-content: space-between;
+}
+.shareWrapper{
+    box-shadow: rgb(176, 174, 174) 1px 1px 3px;
+
+}
